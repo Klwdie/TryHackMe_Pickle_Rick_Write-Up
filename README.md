@@ -9,7 +9,7 @@ This is a walkthrough of my process completing the Pickle Rick room on TryHackMe
 
 Defining our scope: Rick has turned into a pickle and needs 3 ingredients for a potion to turn back into a human. Unfortunately, these ingredients are hidden on his computer, and Pickle Rick has forgotten his password. Our task is to retrieve his password, access his data, and locate the 3 separate files containing the 3 ingredients. 
 
-Pickle Rick provided us with the target machine's IP address, 10.10.200.141.
+Pickle Rick provided us with the target machine's IP address, "`10.10.200.141`".
 
 # Scanning and Enumeration
 We begin with NMap. Using the command "`nmap -Pn -vvv 10.10.200.141`" stealthily scans the first 1000 most common ports that might be active on a machine. This scan reveals ports 22 (**SSH**) and 80 (**HTTP**) are open, and likely running these services. 
