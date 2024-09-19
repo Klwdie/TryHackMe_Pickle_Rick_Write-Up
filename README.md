@@ -144,6 +144,7 @@ Now let's test SSH login.
 Success!
 
 # Reporting
+
 While SSH password login was disabled, this should be a reminder for Rick that security through obscurity can't work on it's own. There should always be other security measures in place. 
 
 For improved security, we recommend Rick begin storing his username and password in an offline encrypted password manager, like KeePassXC, instead of the HTML and robots.txt files of his site. Additionally, Rick should separate the users, permissions, and access within his machine, as well as, disable root login via SSH.
